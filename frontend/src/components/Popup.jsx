@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { useDispatch } from 'react-redux';
-import { underControl } from '../redux/userRelated/userSlice';
-import { underStudentControl } from '../redux/studentRelated/studentSlice';
-import MuiAlert from '@mui/material/Alert';
-import { Snackbar } from '@mui/material';
-import PropTypes from 'prop-types';
+import { underControl } from '../redux/userRelated/UserSlice';
+import { underStudentControl } from '../redux/studentRelated/StudentSlice';
+//import MuiAlert from '@mui/material/Alert';
+// { Snackbar } from '@mui/material';
+//import PropTypes from 'prop-types';
 
 const Popup = ({ message, setShowPopup, showPopup, severity = "error", duration = 2000 }) => {
     const dispatch = useDispatch();

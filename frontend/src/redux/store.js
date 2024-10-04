@@ -1,19 +1,19 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { userReducer } from './userRelated/userSlice';
-import { studentReducer } from './studentRelated/studentSlice';
-import { noticeReducer } from './noticeRelated/noticeSlice';
-import { sclassReducer } from './sclassRelated/sclassSlice';
-import { teacherReducer } from './teacherRelated/teacherSlice';
-import { complainReducer } from './complainRelated/complainSlice';
+import { userReducer } from './userRelated/UserSlice';
+import { studentReducer } from './studentRelated/StudentSlice';
+import { noticeReducer } from './noticeRelated/NoticeSlice';
+//import { sclassReducer } from './sclassRelated/sclassSlice';
+//import { teacherReducer } from './teacherRelated/teacherSlice';
+import { complainReducer } from './complainRelated/ComplainSlice';
 
 const store = configureStore({
     reducer: {
         user: userReducer,
         student: studentReducer,
-        teacher: teacherReducer,
+//teacher: teacherReducer,
         notice: noticeReducer,
         complain: complainReducer,
-        sclass: sclassReducer
+//sclass: sclassReducer
     },
 });
 

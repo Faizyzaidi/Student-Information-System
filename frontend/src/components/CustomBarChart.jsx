@@ -1,7 +1,6 @@
 import React from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Cell, ResponsiveContainer } from "recharts";
-import styled from "styled-components";
-
+npm 
 const CustomTooltip = styled.div`
   background-color: #fff;
   border-radius: 4px;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Students from "../assets/students.svg";
+//import Students from "../assets/students.svg";
 
 const Homepage = () => {
     return (

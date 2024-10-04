@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getSubjectList } from '../../redux/sclassRelated/sclassHandle';
-import { getUserDetails } from '../../redux/userRelated/userHandle';
+//import { getSubjectList } from '../../redux/sclassRelated/sclassHandle';
+import { getUserDetails } from '../../redux/userRelated/UserHandle';
 import CustomBarChart from '../../components/CustomBarChart';
 
 const StudentSubjects = () => {

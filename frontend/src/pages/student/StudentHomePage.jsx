@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { calculateOverallAttendancePercentage } from '../../components/attendanceCalculator';
+//import { calculateOverallAttendancePercentage } from '../../components/attendanceCalculator';
 import CustomPieChart from '../../components/CustomPieChart';
-import { getUserDetails } from '../../redux/userRelated/userHandle';
+import { getUserDetails } from '../../redux/userRelated/UserHandle';
 import SeeNotice from '../../components/SeeNotice';
 import CountUp from 'react-countup';
-import SubjectIcon from "../../assets/subjects.svg";
-import AssignmentIcon from "../../assets/assignment.svg";
-import { getSubjectList } from '../../redux/sclassRelated/sclassHandle';
+//import SubjectIcon from "../../assets/subjects.svg";
+// AssignmentIcon from "../../assets/assignment.svg";
+//import { getSubjectList } from '../../redux/sclassRelated/sclassHandle';
 
 const StudentHomePage = () => {
     const dispatch = useDispatch();
